@@ -12,7 +12,7 @@ Blog: www.codezhang.com
 
 ## 效果图
 <div class='row'>
-        <img src='http://img.blog.csdn.net/20160711165336846'/>
+        <img src='./demo.gif' width="300px"/>
 </div>
 
 ---
