@@ -129,6 +129,8 @@ public class SelectedRecycleAdapter extends RecyclerView.Adapter<SelectedRecycle
     public void removeData(int pos)
     {
         mDatas.remove(pos);
+
+        notifyDataSetChanged();
         notifyItemRemoved(pos);
     }
 

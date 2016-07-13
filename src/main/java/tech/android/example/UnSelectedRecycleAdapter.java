@@ -75,6 +75,8 @@ public class UnSelectedRecycleAdapter extends RecyclerView.Adapter<UnSelectedRec
     public void removeData(int pos)
     {
         mDatas.remove(pos);
+
+        notifyDataSetChanged();
         notifyItemRemoved(pos);
     }
 
